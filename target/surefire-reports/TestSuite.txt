@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.259 s <<< FAILURE! - in TestSuite
+getItemNames(com.seleniume2e.test.GreenKartTest)  Time elapsed: 2.722 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <li class="disabled">...</li> is not clickable at point (1104, 135). Other element would receive the click: <ul class="pagination pull-right" aria-label="Pagination">...</ul>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYPC', ip: '192.168.1.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\anuplab\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 377c8c4650c2f3dc2c424cac398fb763
+	at com.seleniume2e.test.GreenKartTest.getItemNames(GreenKartTest.java:44)
+

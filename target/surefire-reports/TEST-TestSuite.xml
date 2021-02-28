@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="59.259" tests="7" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="109.441" tests="8" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
-    <property name="sun.java.command" value="C:\Users\anuplab\AppData\Local\Temp\surefire16556781218424451023\surefirebooter12464809559805297499.jar C:\Users\anuplab\AppData\Local\Temp\surefire16556781218424451023 2021-02-21T16-17-17_016-jvmRun1 surefire14168547250400804704tmp surefire_017799243034534678844tmp"/>
+    <property name="sun.java.command" value="C:\Users\anuplab\AppData\Local\Temp\surefire5458279013201886982\surefirebooter8951740991229493978.jar C:\Users\anuplab\AppData\Local\Temp\surefire5458279013201886982 2021-02-28T16-21-02_491-jvmRun1 surefire15289968115440812496tmp surefire_014913295533702378313tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\anuplab\Desktop\Selenium_Framework\SeleniumE2E\target\test-classes;C:\Users\anuplab\Desktop\Selenium_Framework\SeleniumE2E\target\classes;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\anuplab\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\anuplab\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\anuplab\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\anuplab\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\anuplab\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\anuplab\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\anuplab\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\anuplab\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\anuplab\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\anuplab\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\anuplab\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\anuplab\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\anuplab\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\anuplab\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\anuplab\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\anuplab\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\anuplab\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\anuplab\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\anuplab\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\anuplab\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\anuplab\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\anuplab\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\anuplab\.m2\repository\com\aventstack\extentreports\5.0.1\extentreports-5.0.1.jar;C:\Users\anuplab\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\anuplab\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\anuplab\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\anuplab\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\anuplab\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\anuplab\AppData\Local\Temp\surefire16556781218424451023\surefirebooter12464809559805297499.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\anuplab\AppData\Local\Temp\surefire5458279013201886982\surefirebooter8951740991229493978.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14+36-1461"/>
@@ -55,29 +55,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="loginUser" classname="com.seleniume2e.test.LoginTest" time="1.715"/>
-  <testcase name="loginUser" classname="com.seleniume2e.test.LoginTest" time="1.394"/>
-  <testcase name="loginUser" classname="com.seleniume2e.test.LoginTest" time="1.607"/>
-  <testcase name="getItemNames" classname="com.seleniume2e.test.GreenKartTest" time="1.241"/>
-  <testcase name="getItemNames" classname="com.seleniume2e.test.GreenKartTest" time="0.402"/>
-  <testcase name="getItemNames" classname="com.seleniume2e.test.GreenKartTest" time="1.462"/>
-  <testcase name="getItemNames" classname="com.seleniume2e.test.GreenKartTest" time="2.722">
-    <failure message="element click intercepted: Element &lt;li class=&quot;disabled&quot;&gt;...&lt;/li&gt; is not clickable at point (1104, 135). Other element would receive the click: &lt;ul class=&quot;pagination pull-right&quot; aria-label=&quot;Pagination&quot;&gt;...&lt;/ul&gt;&#10;  (Session info: chrome=88.0.4324.182)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MYPC&apos;, ip: &apos;192.168.1.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\anuplab\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 377c8c4650c2f3dc2c424cac398fb763" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+  <testcase name="loginUser" classname="com.seleniume2e.test.LoginTest" time="2.16"/>
+  <testcase name="loginUser" classname="com.seleniume2e.test.LoginTest" time="2.171"/>
+  <testcase name="loginUser" classname="com.seleniume2e.test.LoginTest" time="2.023"/>
+  <testcase name="getItemNames" classname="com.seleniume2e.test.GreenKartTest" time="2.176"/>
+  <testcase name="getItemNames" classname="com.seleniume2e.test.GreenKartTest" time="1.264"/>
+  <testcase name="getItemNames" classname="com.seleniume2e.test.GreenKartTest" time="2.333"/>
+  <testcase name="getItemNames" classname="com.seleniume2e.test.GreenKartTest" time="3.238">
+    <failure message="element click intercepted: Element &lt;li class=&quot;disabled&quot;&gt;...&lt;/li&gt; is not clickable at point (1104, 135). Other element would receive the click: &lt;ul class=&quot;pagination pull-right&quot; aria-label=&quot;Pagination&quot;&gt;...&lt;/ul&gt;&#10;  (Session info: chrome=88.0.4324.190)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MYPC&apos;, ip: &apos;192.168.1.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\anuplab\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 99635df214b553acb0a9a0998cad1467" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
 element click intercepted: Element <li class="disabled">...</li> is not clickable at point (1104, 135). Other element would receive the click: <ul class="pagination pull-right" aria-label="Pagination">...</ul>
-  (Session info: chrome=88.0.4324.182)
+  (Session info: chrome=88.0.4324.190)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MYPC', ip: '192.168.1.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\anuplab\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 377c8c4650c2f3dc2c424cac398fb763
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\anuplab\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 99635df214b553acb0a9a0998cad1467
 	at com.seleniume2e.test.GreenKartTest.getItemNames(GreenKartTest.java:44)
 ]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 21837
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 2144
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 21, 2021 4:18:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 28, 2021 4:22:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
+  <testcase name="enterUserDetails" classname="com.seleniume2e.test.SavaariTest" time="25.21"/>
 </testsuite>

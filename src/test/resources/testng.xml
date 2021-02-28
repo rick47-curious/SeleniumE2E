@@ -18,4 +18,10 @@
   </classes>
   </test>
   
+  <test name="Cab booking Test">
+  <classes>
+  <class name="com.seleniume2e.test.SavaariTest"></class>
+  </classes>
+  </test>
+  
 </suite> 

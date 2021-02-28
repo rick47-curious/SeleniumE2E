@@ -16,7 +16,7 @@ import com.seleniume2e.utilities.ReadLoginExcel;
 
 public class LoginTest {
 
-	private WebDriver driver;
+	protected WebDriver driver;
 	
 	Base base = null;
 	ConfigReader configReader = null;
